@@ -181,21 +181,34 @@ button:hover {
 }
 /* Responsive tweaks */
 @media (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+
   .container {
     padding: 20px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
   }
 
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .tab {
+    width: 100%;
+    border-radius: 12px;
+  }
 
   .top-buttons {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 
-  input {
-    width: 100%;
-  }
-
-  button {
+  input, button {
     width: 100%;
   }
 
@@ -203,5 +216,16 @@ button:hover {
     width: 100%;
     text-align: center;
   }
-}
 
+  #result img,
+  #topAnimeInfo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bg-img-left,
+  .bg-img-right {
+    width: 200px;
+    opacity: 0.12;
+  }
+}
