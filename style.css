@@ -104,6 +104,7 @@ button:hover {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .top-buttons button {
@@ -184,10 +185,7 @@ button:hover {
     padding: 20px;
   }
 
-  .tabs {
-    flex-direction: column;
-    gap: 10px;
-  }
+
 
   .top-buttons {
     flex-direction: column;
