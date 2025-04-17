@@ -224,8 +224,9 @@ button:hover {
   }
 
   .bg-img-left,
-  .bg-img-right {
-    width: 200px;
-    opacity: 0.12;
-  }
+.bg-img-right {
+  width: 150px;
+  opacity: 0.1;
+  bottom: -30px;
+}
 }
