@@ -187,7 +187,7 @@ button:hover {
 
   .container {
     padding: 20px;
-    width: 100%;
+    width: 90%;
     border-radius: 0;
     box-shadow: none;
   }
@@ -226,6 +226,7 @@ button:hover {
   .bg-img-left,
 .bg-img-right {
   width: 150px;
+  opacity: 100;
   bottom: -30px;
 }
 }
