@@ -186,11 +186,14 @@ button:hover {
   }
 
   .container {
-    padding: 20px;
-    width: 90%;
+    padding: 16px;
+    width: 85%;
     border-radius: 0;
     box-shadow: none;
   }
+  body {
+  overflow-x: hidden;
+}
 
   .tabs {
     flex-direction: column;
