@@ -178,3 +178,32 @@ button:hover {
   line-height: 1.6;
   margin-top: 10px;
 }
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .top-buttons {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
