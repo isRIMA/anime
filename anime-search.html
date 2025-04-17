@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Anime 🎌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+  <div class="container">
+    <div class="tabs">
+      <button class="tab active" data-tab="top">Top Anime</button>
+      <button class="tab" data-tab="search">Search Anime</button>
+      <button class="tab" data-tab="about">About Us</button>
+    </div>
+
+    <div id="topTab" class="tab-content active">
+      <h2>Top Anime Recommendations</h2>
+      <div class="top-buttons">
+        <button onclick="showTopAnime('frieren')">Sousou no Frieren</button>
+        <button onclick="showTopAnime('fma')">Fullmetal Alchemist: Brotherhood</button>
+        <button onclick="showTopAnime('steins')">Steins;Gate</button>
+      </div>
+      <div id="topAnimeInfo"></div>
+    </div>
+
+    <div id="searchTab" class="tab-content">
+      <h2>Find Your Anime 🎌</h2>
+      <form id="animeForm">
+        <input type="text" id="animeInput" placeholder="Enter anime name" required />
+        <button type="submit">Search</button>
+        <button type="button" id="clearBtn">Clear</button>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <div id="aboutTab" class="tab-content">
+      <h2 class="about-title">About the Project</h2>
+      <p class="about-text">
+        This website was designed and developed by <strong>Reema AlSalamah</strong>,<br>
+        a computer science student at the <strong>University of Jeddah</strong>.
+      </p>
+
+      <div class="about-contact">
+        <p>For contact:</p>
+        <a href="mailto:2116406@uj.edu.sa" class="contact-btn">2116406@uj.edu.sa</a>
+      </div>
+
+      <p class="about-bio">
+        I'm passionate about front-end development and creating smooth,<br>
+        interactive web experiences that combine functionality with clean design.
+      </p>
+    </div>
+  </div>
+
+  <!-- Background Images -->
+  <img src="1.png" class="bg-img-right" alt="background right" />
+  <img src="2.png" class="bg-img-left" alt="background left" />
+
+  <script src="script.js"></script>
+</body>
+</html>

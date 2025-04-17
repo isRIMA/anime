@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #fdf8f3;
+  color: #2e003e;
+}
+
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #f3e7fa;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 5px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4a005a;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tab.active {
+  background-color: white;
+  color: #9d3ec5;
+  box-shadow: 0 0 0 2px #e2c9f0;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 12px 15px;
+  border: 2px solid #e0d0f0;
+  border-radius: 12px;
+  width: 60%;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #9d3ec5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #7d2ea3;
+}
+
+#result img, #topAnimeInfo img {
+  max-width: 100%;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+#result, #topAnimeInfo {
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-buttons button {
+  background-color: #e6ccf3;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.top-buttons button:hover {
+  background-color: #d1a9ea;
+}
+
+/* Background Images */
+.bg-img-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bg-img-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* About Us Styling */
+.about-title {
+  font-size: 2rem;
+  color: #4a005a;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-contact {
+  margin: 20px 0;
+}
+
+.contact-btn {
+  background-color: #9d3ec5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #7a2e9e;
+}
+
+.about-bio {
+  font-size: 1rem;
+  color: #3a003f;
+  line-height: 1.6;
+  margin-top: 10px;
+}
